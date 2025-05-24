@@ -1,0 +1,49 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #fefefe;
+  color: #222;
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.warning {
+  border-left: 4px solid red;
+  background-color: #ffecec;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.downloads {
+  margin-top: 2rem;
+}
+
+.downloads button {
+  background-color: #ddd;
+  border: 1px solid #999;
+  padding: 10px 16px;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.downloads button:hover {
+  background-color: #ccc;
+}
+
+code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
